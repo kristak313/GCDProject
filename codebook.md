@@ -1,6 +1,6 @@
 #Study Design:
 
-**Test and train data are loaded individually. **
+**Test and train data are loaded individually.**
 
 **The subject, X, and y files are loaded for test and train. Headers for the X values are extracted from the features.txt file and applied to both test and train datasets.**
 
