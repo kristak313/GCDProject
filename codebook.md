@@ -77,16 +77,16 @@ When the script is executed the output columns are space delimited values to a t
 
 #Code book:
 
-subject_train -- data from "UCI HAR Dataset/train/subject_train.txt"
-subject_test -- data from "UCI HAR Dataset/test/subject_test.txt"
-X_train -- data from "UCI HAR Dataset/train/X_train.txt"
-X_test -- data from "UCI HAR Dataset/test/X_test.txt"
-y_train -- data from "UCI HAR Dataset/train/y_train.txt"
-y_test -- data from "UCI HAR Dataset/test/y_test.txt"
-featureNames -- data from "UCI HAR Dataset/features.txt"
-train -- binds and combines files subject_train, y_train, X_train by columns
-test -- binds and combines files subject_test, y_test, X_test by columns
-combined -- binds and combines files train, test by rows
-meanstdcols -- indicates which columns contain mean
-melted -- shows data taken from a set of columns and stacked into a single column of data
-tidy -- describes shape of data
+<p>subject_train -- data from "UCI HAR Dataset/train/subject_train.txt"</p>
+<p>subject_test -- data from "UCI HAR Dataset/test/subject_test.txt"</p>
+<p>X_train -- data from "UCI HAR Dataset/train/X_train.txt"</p>
+<p>X_test -- data from "UCI HAR Dataset/test/X_test.txt"</p>
+<p>y_train -- data from "UCI HAR Dataset/train/y_train.txt"</p>
+<p>y_test -- data from "UCI HAR Dataset/test/y_test.txt"</p>
+<p>featureNames -- data from "UCI HAR Dataset/features.txt"</p>
+<p>train -- binds and combines files subject_train, y_train, X_train by columns</p>
+<p>test -- binds and combines files subject_test, y_test, X_test by columns</p>
+<p>combined -- binds and combines files train, test by rows</p>
+<p>meanstdcols -- indicates which columns contain mean</p>
+<p>melted -- shows data taken from a set of columns and stacked into a single column of data</p>
+<p>tidy -- describes shape of data</p>
