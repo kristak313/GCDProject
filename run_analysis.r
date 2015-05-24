@@ -5,9 +5,14 @@
 ##4. Appropriately labels the data set with descriptive variable names.
 ##5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+##set working directory
 
 setwd("/Users/Krista/Desktop/coursera/GCDProject")
-##use getwd() to check the working directory if needed
+
+##set path
+
+path <- getwd()
+path
 
 ##load required packages
 
@@ -24,6 +29,10 @@ download.file(url, file.path(path, f), method = "curl")
 ##unzip file
 
 unzip("/Users/Krista/Desktop/coursera/GCDProject/Dataset.zip", files = NULL, list = FALSE, overwrite = TRUE, junkpaths = FALSE, exdir = ".", unzip = "internal", setTimes = FALSE)
+
+##set input path
+pathIn <- file.path(path, "UCI HAR Dataset")
+list.files(pathIn, recursive=TRUE)
 
 ##1. Merge the training and the test sets to create one data set.
 
