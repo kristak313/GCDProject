@@ -1,4 +1,4 @@
-Study Design:
+#Study Design:
 
 Test and train data are loaded individually. 
 
@@ -75,7 +75,7 @@ Activity labels include:
 When the script is executed the output columns are space delimited values to a text file (named tidyData.txt) in the current working directory.
 
 
-Code book:
+#Code book:
 
 subject_train -- data from "UCI HAR Dataset/train/subject_train.txt"
 subject_test -- data from "UCI HAR Dataset/test/subject_test.txt"
