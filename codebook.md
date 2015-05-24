@@ -1,10 +1,10 @@
 #Study Design:
 
-**Test and train data are loaded individually. 
+**Test and train data are loaded individually. **
 
-**The subject, X, and y files are loaded for test and train. Headers for the X values are extracted from the features.txt file and applied to both test and train datasets.
+**The subject, X, and y files are loaded for test and train. Headers for the X values are extracted from the features.txt file and applied to both test and train datasets.**
 
-**features.txt
+**features.txt**
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
@@ -60,12 +60,12 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 <p>tBodyGyroMean</p>
 <p>tBodyGyroJerkMean</p>
 
-**The headers are used to filter out means and standard deviations from the set of observations. The extraction is done using grepl on the header names, with  care to not include meanFreq().
+**The headers are used to filter out means and standard deviations from the set of observations. The extraction is done using grepl on the header names, with  care to not include meanFreq().**
 
-**Test and train data sets are merged into one and then column names of SubjectID and Activity are added for the subject and y values respectively.
+**Test and train data sets are merged into one and then column names of SubjectID and Activity are added for the subject and y values respectively.**
 
-**The activity column that contains an integer is converted to labels using the factor function
-Activity labels include: 
+**The activity column that contains an integer is converted to labels using the factor function**
+Activity labels include:
 <p>1 WALKING</p>
 <p>2 WALKING_UPSTAIRS</p>
 <p>3 WALKING_DOWNSTAIRS</p>
@@ -73,7 +73,7 @@ Activity labels include:
 <p>5 STANDING</p>
 <p>6 LAYING</p>
 
-**When the script is executed the output columns are space delimited values to a text file (named tidyData.txt) in the current working directory.
+**When the script is executed the output columns are space delimited values to a text file (named tidyData.txt) in the current working directory.**
 
 
 #Code book:
